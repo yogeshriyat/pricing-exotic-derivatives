@@ -11,9 +11,14 @@ I do realize that this setup is not really a "basket." I wanted to use NDX becau
 https://finance.yahoo.com/quote/%5ENDX/options?p=%5ENDX&.tsrc=fin-srch
 ```
 
-After creating the initial dataframe, I defined the functions needed for the Black-Scholes pricing model. I used the Black-Scholes function to calculate the call values, which I then added to the dataframe. 
+After creating the initial dataframe, I defined the functions needed for the Black-Scholes pricing model. 
 
 ![image](https://user-images.githubusercontent.com/39508404/145350293-a0cead28-2417-4882-a080-3b1ebea42d14.png)
+
+I used the Black-Scholes function to calculate the call values, which I then added to the dataframe. 
+
+<img width="743" alt="Screen Shot 2021-12-09 at 1 24 13 AM" src="https://user-images.githubusercontent.com/39508404/145352222-a2800a1b-6e5a-45d3-9564-e5d767fe34f8.png">
+
 
 Then I normalized the values for the stock price and exercise price and performed a 80/10/10 split for the train/test/val data sets. I also reshaped the datasets to work with the LSTM model (see appendix). 
 
