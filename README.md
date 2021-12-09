@@ -10,7 +10,7 @@ https://wrds-www.wharton.upenn.edu/
 
 I referenced a finance textbook ("Investments" by Bodie, Kane, and Marcus) to better understand the Black-Scholes formula. From that, I learned about the inputs needed (stock price, exercise price, interest rate, time to expiration, and standard deviation), and I also learned about the equations. I decided to create dummy/toy data so that I would be able to execute as much of the assignment as possible. I picked random numbers from ranges for the stock price and exercise price, and I picked constants for interest rate, time to expiration, and standard deviation. I took these values and created a (1000, 5) dataframe. 
 
-I do realize that this setup is not really a "basket." I wanted to use NDX because I that fits the requirements for "European Basket options", but it wasn't clear to me that I would have the inputs that I needed for Black-Scholes. I would love to figure out how to use this data:
+I do realize that this setup is not really a "basket." I wanted to use NDX (NASDAQ) because I believe that it fits the requirements for "European Basket options", but it wasn't clear to me that I would have the inputs that I needed for Black-Scholes. I would love to figure out how to use this data:
 ```
 https://finance.yahoo.com/quote/%5ENDX/options?p=%5ENDX&.tsrc=fin-srch
 ```
