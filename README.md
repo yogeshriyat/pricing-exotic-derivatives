@@ -35,11 +35,11 @@ The neural network had an average training loss of 0.036 and an average validati
 
 ![image](https://user-images.githubusercontent.com/39508404/145349569-e5c8a04f-5fb9-4718-8032-1529c7c0d33e.png)
 
-I wanted to try the LSTM model, which is a model that has feedback connections. I thought this would work vell for sequenced data, and I am also interested in the fact that the cells in the model remembers values over arbitrary time/sequence interals. LSTMs are known to work well in situations where there can be lags of uknown duration between important events in a sequence/time series. 
+I wanted to try the LSTM model, which is a model that has feedback connections. I thought this would work vell for sequenced data, and I am also interested in the fact that the cells in the model remember values over arbitrary time/sequence interals. LSTMs are known to work well in situations where there can be lags of uknown duration between important events in a sequence/time series. 
 
 ![image](https://user-images.githubusercontent.com/39508404/145355192-0d8a0c40-80f6-4180-a2b1-eaf3778d7133.png)
 
-The LSTM model also has a nicely downward sloping loss graph, but the loss values were still way too high. I'm sure if I trained for longer (500+ epochs) and also palyed with the learning rate, I might have been able to bring the losses down. 
+The LSTM model also has a nicely downward sloping loss graph, but the loss values were still way too high. I'm sure if I trained for longer (500+ epochs) and also played with the learning rate, I might have been able to bring the losses down. 
 
 ![image](https://user-images.githubusercontent.com/39508404/145350087-61fe9536-2a37-48e3-a8c5-eac47cb3de5f.png)
 
